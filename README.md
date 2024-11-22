@@ -1,2 +1,15 @@
-# s2i-moove
-A simple excercise for start2impact. Written in Typescript it's main focus is to learn Typescript interfaces and classes and how to all of it works together.
+# 🚀 Welcome to your new awesome project!
+
+This project has been created using **webpack-cli**, you can now run
+
+```
+npm run build
+```
+
+or
+
+```
+yarn build
+```
+
+to bundle your application
