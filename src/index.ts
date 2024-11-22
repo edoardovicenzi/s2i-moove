@@ -28,6 +28,7 @@ const utente4 = new Utente("Matteo", "Neri", "matteoneri@matteonericorp.corp", "
 
 console.log("Gli utenti:", [utente1, utente2, utente3, utente4]);
 
+
 //TEST INTERAZIONE
 
 //all'inizio tutti i mezzi nuovi sono disponibili

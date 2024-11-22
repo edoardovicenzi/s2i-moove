@@ -1,4 +1,6 @@
 import IUtente from "../utenti/IUtente";
+
+
 export type TipoMezzo = "bici" | "scooter" | "monopattino";
 export type StatoMezzo = "disponibile" | "in uso";
 

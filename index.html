@@ -5,22 +5,44 @@
         <title>Webpack App</title>
     </head>
     <body>
-        <h1>Hello world!</h1>
-        <h2>Tip: Check your console</h2>
+        <section id="citta">
+            <div class="nome-sezione">
+            </div>
+            <ul class="lista-mezzi">
+            </ul>
+            <ul class="lista-utenti">
+            </ul>
+        </section>
+        <section id="mezzi">
+            <div class="nome-sezione">
+            </div>
+            <ul class="lista-mezzi">
+            </ul>
+        </section>
+
+        <section id="utenti">
+            <div class="nome-sezione">
+            </div>
+            <ul class="lista-utenti">
+            </ul>
+        </section>
+        <section id="log">
+
+        </section>
     </body>
-    
+
     <script>
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", () => {
-                navigator.serviceWorker
-                    .register("service-worker.js")
-                    .then((registration) => {
-                        console.log("Service Worker registered: ", registration);
-                    })
-                    .catch((registrationError) => {
-                        console.error("Service Worker registration failed: ", registrationError);
-                    });
-            });
-        }
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker
+                .register("service-worker.js")
+                .then((registration) => {
+                    console.log("Service Worker registered: ", registration);
+                })
+                .catch((registrationError) => {
+                    console.error("Service Worker registration failed: ", registrationError);
+                });
+        });
+    }
     </script>
 </html>
